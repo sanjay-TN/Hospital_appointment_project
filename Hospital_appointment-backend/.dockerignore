@@ -1,0 +1,10 @@
+target
+.git
+.dockerignore
+Dockerfile
+.mvn
+.settings
+.classpath
+.factorypath
+.project
+HELP.md
