@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://hospital-appointment-project.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   bindForm("loginForm", login);
@@ -62,13 +62,13 @@ function login() {
 
       localStorage.setItem("token", token);
 
-      // ✅ Get role from JWT
+      // âœ… Get role from JWT
       const role = getRoleFromToken(token);
       localStorage.setItem("role", role);
 
       alert("Login Successful");
 
-      // ✅ Redirect based on role
+      // âœ… Redirect based on role
       if (role === "ADMIN") {
         window.location.href = "admin.html";
       } else if (role === "DOCTOR") {
@@ -130,7 +130,7 @@ function createDoctor() {
       phoneNumber: document.getElementById("dphone").value,
       specialization: document.getElementById("dspecialization").value,
 
-      // ✅ FIX: ensure numbers
+      // âœ… FIX: ensure numbers
       experienceYears: experience ? parseInt(experience) : 0,
       consultationFee: fee ? parseInt(fee) : 0,
     }),
@@ -151,7 +151,7 @@ function loadDoctors() {
       table.innerHTML = "";
 
       data.forEach((d) => {
-        const id = d.doctorId ?? d.id; // ✅ FIX
+        const id = d.doctorId ?? d.id; // âœ… FIX
 
         table.innerHTML += `
           <tr>
@@ -343,7 +343,7 @@ function updateSchedule(id) {
   let endTime = prompt("Enter end time (HH:mm) e.g. 11:00");
   let max = prompt("Enter max appointments");
 
-  // 🔥 REMOVE AM/PM if user types it
+  // ðŸ”¥ REMOVE AM/PM if user types it
   if (startTime.includes("am") || startTime.includes("pm")) {
     alert("Please use 24-hour format (HH:mm). Example: 14:00");
     return;
