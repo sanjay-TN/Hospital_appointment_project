@@ -1,6 +1,6 @@
 # Hospital Appointment Project
 
-Deployed app: `https://hospital-appointment-project-1.onrender.com`
+Deployed app: [https://hospital-appointment-project-1.onrender.com](https://hospital-appointment-project-1.onrender.com)
 
 A full-stack hospital appointment management system built to simplify patient booking, doctor scheduling, and appointment queue handling. The project includes a Spring Boot backend with JWT-based authentication, a PostgreSQL database, and a lightweight HTML/CSS/JavaScript frontend.
 
@@ -14,8 +14,8 @@ This application supports three main user roles:
 
 Live project links:
 
-- `Live Demo`: `https://hospital-appointment-project-1.onrender.com`
-- `Live API`: `https://hospital-appointment-project.onrender.com`
+- `Live Demo`: [https://hospital-appointment-project-1.onrender.com](https://hospital-appointment-project-1.onrender.com)
+- `Live API`: [https://hospital-appointment-project.onrender.com](https://hospital-appointment-project.onrender.com)
 
 ## Features
 
