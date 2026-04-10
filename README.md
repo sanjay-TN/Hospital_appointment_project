@@ -1,5 +1,7 @@
 # Hospital Appointment Project
 
+Deployed app: `https://hospital-appointment-project-1.onrender.com`
+
 A full-stack hospital appointment management system built to simplify patient booking, doctor scheduling, and appointment queue handling. The project includes a Spring Boot backend with JWT-based authentication, a PostgreSQL database, and a lightweight HTML/CSS/JavaScript frontend.
 
 ## Overview
