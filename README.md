@@ -179,8 +179,6 @@ Main entities include:
 
 ## Future Improvements
 
-- Add a deployed frontend link and screenshots
-- Replace hardcoded frontend API URL with environment-based configuration
 - Add Swagger or API documentation
 - Add unit and integration tests for major flows
 - Improve reminder scheduling to avoid duplicate repeated notifications
